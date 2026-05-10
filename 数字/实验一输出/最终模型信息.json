@@ -1,0 +1,15 @@
+{
+  "optimizer": "Adam",
+  "learning_rate": 0.001,
+  "batch_size": 128,
+  "epochs": 20,
+  "augment": true,
+  "early_stopping": true,
+  "scheduler": true,
+  "weight_decay": 0.0001,
+  "dropout": 0.25,
+  "train_acc": 0.9955,
+  "val_acc": 0.9926,
+  "test_acc": 0.9886,
+  "note": "推荐用于 Kaggle 提交的最终配置"
+}
